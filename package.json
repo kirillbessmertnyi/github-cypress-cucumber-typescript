@@ -1,0 +1,33 @@
+{
+  "name": "github-cypress-cucumber-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirillbessmertnyi/github-cypress-cucumber-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirillbessmertnyi/github-cypress-cucumber-typescript/issues"
+  },
+  "homepage": "https://github.com/kirillbessmertnyi/github-cypress-cucumber-typescript#readme",
+  "devDependencies": {
+    "cypress": "^13.7.1",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@cypress/webpack-preprocessor": "latest",
+    "cypress": "latest",
+    "ts-loader": "latest",
+    "typescript": "latest",
+    "node-fetch": "^2.6.11"
+   }
+   
+}
